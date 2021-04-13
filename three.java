@@ -3,7 +3,8 @@ public class three
 {
 	public static void main(String[] args)
 	{
-		Scanner in = new Scanner(System.in);
+		try(Scanner in = new Scanner(System.in))
+        {
 		String s = in.next();
 		int i=0,len=s.length();
 		char c[] = new char[len];
@@ -15,5 +16,6 @@ public class three
 		for(i=0;i<26;i++)
 			if(r[i]>1)
 				System.out.println((char)(i+97)+", count = "+ r[i]);
+        }
 	}
 }
