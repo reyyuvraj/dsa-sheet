@@ -18,7 +18,7 @@ class two
             System.out.println(ob.isPlaindrome(S));
         }
     }
-}// } Driver Code Ends
+}
 
 
 //User function Template for Java
