@@ -2,7 +2,7 @@
 //reverse a string
 //https://practice.geeksforgeeks.org/problems/palindrome-string0817/1
 
-public class one
+public class String_01
 {
 	  public void helper(char[] s, int left, int right) 
 	  {
