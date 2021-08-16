@@ -1,7 +1,7 @@
 Why are strings immutable in java?
 
 The string is Immutable in Java because String objects are cached in the String pool.
-Mutable String would produce two different hashcodes at the time of insertion and retrieval if contents 
+Mutable String would produce two different hashcode at the time of insertion and retrieval if contents
 of String was modified after insertion, potentially losing the value object in the map.
 
 Also read - https://javarevisited.blogspot.com/2010/10/why-string-is-immutable-or-final-in-java.html#axzz6rw8lrEQ3
